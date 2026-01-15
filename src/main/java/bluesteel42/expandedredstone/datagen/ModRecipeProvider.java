@@ -39,6 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerButtonRecipe(ModBlocks.COBBLESTONE_BUTTON, Blocks.COBBLESTONE);
                 offerButtonRecipe(ModBlocks.DEEPSLATE_BUTTON, Blocks.DEEPSLATE);
                 offerButtonRecipe(ModBlocks.COBBLED_DEEPSLATE_BUTTON, Blocks.COBBLED_DEEPSLATE);
+                offerButtonRecipe(ModBlocks.POLISHED_DEEPSLATE_BUTTON, Blocks.POLISHED_DEEPSLATE);
                 offerButtonRecipe(ModBlocks.BLACKSTONE_BUTTON, Blocks.BLACKSTONE);
                 offerButtonRecipe(ModBlocks.ANDESITE_BUTTON, Blocks.ANDESITE);
                 offerButtonRecipe(ModBlocks.POLISHED_ANDESITE_BUTTON, Blocks.POLISHED_ANDESITE);
@@ -53,6 +54,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerLeverRecipe(ModBlocks.COBBLESTONE_LEVER, Blocks.COBBLESTONE);
                 offerLeverRecipe(ModBlocks.DEEPSLATE_LEVER, Blocks.DEEPSLATE);
                 offerLeverRecipe(ModBlocks.COBBLED_DEEPSLATE_LEVER, Blocks.COBBLED_DEEPSLATE);
+                offerLeverRecipe(ModBlocks.POLISHED_DEEPSLATE_LEVER, Blocks.POLISHED_DEEPSLATE);
                 offerLeverRecipe(ModBlocks.BLACKSTONE_LEVER, Blocks.BLACKSTONE);
                 offerLeverRecipe(ModBlocks.POLISHED_BLACKSTONE_LEVER, Blocks.POLISHED_BLACKSTONE);
                 offerLeverRecipe(ModBlocks.ANDESITE_LEVER, Blocks.ANDESITE);
@@ -68,6 +70,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerNewPressurePlateRecipe(ModBlocks.COBBLESTONE_PRESSURE_PLATE, Blocks.COBBLESTONE);
                 offerNewPressurePlateRecipe(ModBlocks.DEEPSLATE_PRESSURE_PLATE, Blocks.DEEPSLATE);
                 offerNewPressurePlateRecipe(ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE, Blocks.COBBLED_DEEPSLATE);
+                offerNewPressurePlateRecipe(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE, Blocks.POLISHED_DEEPSLATE);
                 offerNewPressurePlateRecipe(ModBlocks.BLACKSTONE_PRESSURE_PLATE, Blocks.BLACKSTONE);
                 offerNewPressurePlateRecipe(ModBlocks.ANDESITE_PRESSURE_PLATE, Blocks.ANDESITE);
                 offerNewPressurePlateRecipe(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE, Blocks.POLISHED_ANDESITE);
