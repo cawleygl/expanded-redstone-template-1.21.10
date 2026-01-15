@@ -1,0 +1,16 @@
+{
+  "values": [
+    "expanded-redstone:cobblestone_pressure_plate",
+    "expanded-redstone:deepslate_pressure_plate",
+    "expanded-redstone:cobbled_deepslate_pressure_plate",
+    "expanded-redstone:polished_deepslate_pressure_plate",
+    "expanded-redstone:andesite_pressure_plate",
+    "expanded-redstone:polished_andesite_pressure_plate",
+    "expanded-redstone:diorite_pressure_plate",
+    "expanded-redstone:polished_diorite_pressure_plate",
+    "expanded-redstone:granite_pressure_plate",
+    "expanded-redstone:polished_granite_pressure_plate",
+    "expanded-redstone:blackstone_pressure_plate",
+    "expanded-redstone:end_stone_pressure_plate"
+  ]
+}

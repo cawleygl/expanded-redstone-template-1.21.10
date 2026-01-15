@@ -1,0 +1,7 @@
+{
+  "parent": "expanded-redstone:block/template_lever",
+  "textures": {
+    "base": "minecraft:block/end_stone",
+    "lever": "expanded-redstone:block/end_stone_lever"
+  }
+}

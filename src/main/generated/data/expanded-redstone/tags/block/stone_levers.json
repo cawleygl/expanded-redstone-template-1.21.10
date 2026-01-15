@@ -1,0 +1,18 @@
+{
+  "values": [
+    "minecraft:lever",
+    "expanded-redstone:cobblestone_lever",
+    "expanded-redstone:deepslate_lever",
+    "expanded-redstone:cobbled_deepslate_lever",
+    "expanded-redstone:polished_deepslate_lever",
+    "expanded-redstone:andesite_lever",
+    "expanded-redstone:polished_andesite_lever",
+    "expanded-redstone:diorite_lever",
+    "expanded-redstone:polished_diorite_lever",
+    "expanded-redstone:granite_lever",
+    "expanded-redstone:polished_granite_lever",
+    "expanded-redstone:blackstone_lever",
+    "expanded-redstone:polished_blackstone_lever",
+    "expanded-redstone:end_stone_lever"
+  ]
+}

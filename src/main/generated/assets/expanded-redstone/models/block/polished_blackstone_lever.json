@@ -1,0 +1,7 @@
+{
+  "parent": "expanded-redstone:block/template_lever",
+  "textures": {
+    "base": "minecraft:block/polished_blackstone",
+    "lever": "expanded-redstone:block/polished_blackstone_lever"
+  }
+}
