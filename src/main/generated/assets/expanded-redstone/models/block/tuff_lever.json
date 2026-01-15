@@ -1,0 +1,7 @@
+{
+  "parent": "expanded-redstone:block/template_lever",
+  "textures": {
+    "base": "minecraft:block/tuff",
+    "lever": "expanded-redstone:block/tuff_lever"
+  }
+}

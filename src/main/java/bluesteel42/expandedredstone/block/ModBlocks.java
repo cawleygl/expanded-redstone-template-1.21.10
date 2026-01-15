@@ -30,8 +30,8 @@ public class ModBlocks {
     public static final Block POLISHED_DIORITE_BUTTON = registerStoneButton("polished_diorite_button");
     public static final Block GRANITE_BUTTON = registerStoneButton("granite_button");
     public static final Block POLISHED_GRANITE_BUTTON = registerStoneButton("polished_granite_button");
-    public static final Block TUFF_BUTTON = registerStoneButton("granite_button");
-    public static final Block POLISHED_TUFF_BUTTON = registerStoneButton("polished_granite_button");
+    public static final Block TUFF_BUTTON = registerStoneButton("tuff_button");
+    public static final Block POLISHED_TUFF_BUTTON = registerStoneButton("polished_tuff_button");
     public static final Block END_STONE_BUTTON = registerStoneButton("end_stone_button");
 
     public static final Block COBBLESTONE_LEVER = registerStoneLever("cobblestone_lever");
@@ -46,8 +46,8 @@ public class ModBlocks {
     public static final Block POLISHED_DIORITE_LEVER = registerStoneLever("polished_diorite_lever");
     public static final Block GRANITE_LEVER = registerStoneLever("granite_lever");
     public static final Block POLISHED_GRANITE_LEVER = registerStoneLever("polished_granite_lever");
-    public static final Block TUFF_LEVER = registerStoneLever("granite_lever");
-    public static final Block POLISHED_TUFF_LEVER = registerStoneLever("polished_granite_lever");
+    public static final Block TUFF_LEVER = registerStoneLever("tuff_lever");
+    public static final Block POLISHED_TUFF_LEVER = registerStoneLever("polished_tuff_lever");
     public static final Block END_STONE_LEVER = registerStoneLever("end_stone_lever");
 
     public static final Block COBBLESTONE_PRESSURE_PLATE = registerStonePressurePlate("cobblestone_pressure_plate", Blocks.COBBLESTONE);
@@ -61,8 +61,8 @@ public class ModBlocks {
     public static final Block POLISHED_DIORITE_PRESSURE_PLATE = registerStonePressurePlate("polished_diorite_pressure_plate", Blocks.POLISHED_DIORITE);
     public static final Block GRANITE_PRESSURE_PLATE = registerStonePressurePlate("granite_pressure_plate", Blocks.GRANITE);
     public static final Block POLISHED_GRANITE_PRESSURE_PLATE = registerStonePressurePlate("polished_granite_pressure_plate", Blocks.POLISHED_GRANITE);
-    public static final Block TUFF_PRESSURE_PLATE = registerStonePressurePlate("granite_pressure_plate", Blocks.TUFF);
-    public static final Block POLISHED_TUFF_PRESSURE_PLATE = registerStonePressurePlate("polished_granite_pressure_plate", Blocks.POLISHED_TUFF);
+    public static final Block TUFF_PRESSURE_PLATE = registerStonePressurePlate("tuff_pressure_plate", Blocks.TUFF);
+    public static final Block POLISHED_TUFF_PRESSURE_PLATE = registerStonePressurePlate("polished_tuff_pressure_plate", Blocks.POLISHED_TUFF);
     public static final Block END_STONE_PRESSURE_PLATE = registerStonePressurePlate("end_stone_pressure_plate", Blocks.END_STONE);
 
     private static Block registerStoneButton(String path) {
