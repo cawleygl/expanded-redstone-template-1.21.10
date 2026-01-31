@@ -13,6 +13,22 @@
     "expanded-redstone:tuff_pressure_plate",
     "expanded-redstone:polished_tuff_pressure_plate",
     "expanded-redstone:blackstone_pressure_plate",
-    "expanded-redstone:end_stone_pressure_plate"
+    "expanded-redstone:end_stone_pressure_plate",
+    "expanded-redstone:pink_concrete_pressure_plate",
+    "expanded-redstone:magenta_concrete_pressure_plate",
+    "expanded-redstone:purple_concrete_pressure_plate",
+    "expanded-redstone:blue_concrete_pressure_plate",
+    "expanded-redstone:light_blue_concrete_pressure_plate",
+    "expanded-redstone:cyan_concrete_pressure_plate",
+    "expanded-redstone:green_concrete_pressure_plate",
+    "expanded-redstone:lime_concrete_pressure_plate",
+    "expanded-redstone:yellow_concrete_pressure_plate",
+    "expanded-redstone:orange_concrete_pressure_plate",
+    "expanded-redstone:red_concrete_pressure_plate",
+    "expanded-redstone:brown_concrete_pressure_plate",
+    "expanded-redstone:black_concrete_pressure_plate",
+    "expanded-redstone:gray_concrete_pressure_plate",
+    "expanded-redstone:light_gray_concrete_pressure_plate",
+    "expanded-redstone:white_concrete_pressure_plate"
   ]
 }

@@ -34,6 +34,22 @@ public class ModBlocks {
     public static final Block TUFF_BUTTON = registerStoneButton("tuff_button", ModBlockSetType.TUFF);
     public static final Block POLISHED_TUFF_BUTTON = registerStoneButton("polished_tuff_button", ModBlockSetType.POLISHED_TUFF);
     public static final Block END_STONE_BUTTON = registerStoneButton("end_stone_button");
+    public static final Block WHITE_CONCRETE_BUTTON = registerStoneButton("white_concrete_button");
+    public static final Block LIGHT_GRAY_CONCRETE_BUTTON = registerStoneButton("light_gray_concrete_button");
+    public static final Block GRAY_CONCRETE_BUTTON = registerStoneButton("gray_concrete_button");
+    public static final Block BLACK_CONCRETE_BUTTON = registerStoneButton("black_concrete_button");
+    public static final Block BROWN_CONCRETE_BUTTON = registerStoneButton("brown_concrete_button");
+    public static final Block RED_CONCRETE_BUTTON = registerStoneButton("red_concrete_button");
+    public static final Block ORANGE_CONCRETE_BUTTON = registerStoneButton("orange_concrete_button");
+    public static final Block YELLOW_CONCRETE_BUTTON = registerStoneButton("yellow_concrete_button");
+    public static final Block LIME_CONCRETE_BUTTON = registerStoneButton("lime_concrete_button");
+    public static final Block GREEN_CONCRETE_BUTTON = registerStoneButton("green_concrete_button");
+    public static final Block CYAN_CONCRETE_BUTTON = registerStoneButton("cyan_concrete_button");
+    public static final Block LIGHT_BLUE_CONCRETE_BUTTON = registerStoneButton("light_blue_concrete_button");
+    public static final Block BLUE_CONCRETE_BUTTON = registerStoneButton("blue_concrete_button");
+    public static final Block PURPLE_CONCRETE_BUTTON = registerStoneButton("purple_concrete_button");
+    public static final Block MAGENTA_CONCRETE_BUTTON = registerStoneButton("magenta_concrete_button");
+    public static final Block PINK_CONCRETE_BUTTON = registerStoneButton("pink_concrete_button");
 
     public static final Block COBBLESTONE_LEVER = registerStoneLever("cobblestone_lever");
     public static final Block DEEPSLATE_LEVER = registerStoneLever("deepslate_lever", BlockSoundGroup.DEEPSLATE);
@@ -50,6 +66,22 @@ public class ModBlocks {
     public static final Block TUFF_LEVER = registerStoneLever("tuff_lever", BlockSoundGroup.TUFF);
     public static final Block POLISHED_TUFF_LEVER = registerStoneLever("polished_tuff_lever", BlockSoundGroup.POLISHED_TUFF);
     public static final Block END_STONE_LEVER = registerStoneLever("end_stone_lever");
+    public static final Block WHITE_CONCRETE_LEVER = registerStoneLever("white_concrete_lever");
+    public static final Block LIGHT_GRAY_CONCRETE_LEVER = registerStoneLever("light_gray_concrete_lever");
+    public static final Block GRAY_CONCRETE_LEVER = registerStoneLever("gray_concrete_lever");
+    public static final Block BLACK_CONCRETE_LEVER = registerStoneLever("black_concrete_lever");
+    public static final Block BROWN_CONCRETE_LEVER = registerStoneLever("brown_concrete_lever");
+    public static final Block RED_CONCRETE_LEVER = registerStoneLever("red_concrete_lever");
+    public static final Block ORANGE_CONCRETE_LEVER = registerStoneLever("orange_concrete_lever");
+    public static final Block YELLOW_CONCRETE_LEVER = registerStoneLever("yellow_concrete_lever");
+    public static final Block LIME_CONCRETE_LEVER = registerStoneLever("lime_concrete_lever");
+    public static final Block GREEN_CONCRETE_LEVER = registerStoneLever("green_concrete_lever");
+    public static final Block CYAN_CONCRETE_LEVER = registerStoneLever("cyan_concrete_lever");
+    public static final Block LIGHT_BLUE_CONCRETE_LEVER = registerStoneLever("light_blue_concrete_lever");
+    public static final Block BLUE_CONCRETE_LEVER = registerStoneLever("blue_concrete_lever");
+    public static final Block PURPLE_CONCRETE_LEVER = registerStoneLever("purple_concrete_lever");
+    public static final Block MAGENTA_CONCRETE_LEVER = registerStoneLever("magenta_concrete_lever");
+    public static final Block PINK_CONCRETE_LEVER = registerStoneLever("pink_concrete_lever");
 
     public static final Block COBBLESTONE_PRESSURE_PLATE = registerStonePressurePlate("cobblestone_pressure_plate", Blocks.COBBLESTONE);
     public static final Block DEEPSLATE_PRESSURE_PLATE = registerStonePressurePlate("deepslate_pressure_plate", Blocks.DEEPSLATE, ModBlockSetType.DEEPSLATE);
@@ -65,6 +97,22 @@ public class ModBlocks {
     public static final Block TUFF_PRESSURE_PLATE = registerStonePressurePlate("tuff_pressure_plate", Blocks.TUFF, ModBlockSetType.TUFF);
     public static final Block POLISHED_TUFF_PRESSURE_PLATE = registerStonePressurePlate("polished_tuff_pressure_plate", Blocks.POLISHED_TUFF, ModBlockSetType.POLISHED_TUFF);
     public static final Block END_STONE_PRESSURE_PLATE = registerStonePressurePlate("end_stone_pressure_plate", Blocks.END_STONE);
+    public static final Block WHITE_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("white_concrete_pressure_plate", Blocks.WHITE_CONCRETE);
+    public static final Block LIGHT_GRAY_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("light_gray_concrete_pressure_plate", Blocks.LIGHT_GRAY_CONCRETE);
+    public static final Block GRAY_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("gray_concrete_pressure_plate", Blocks.GRAY_CONCRETE);
+    public static final Block BLACK_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("black_concrete_pressure_plate", Blocks.BLACK_CONCRETE);
+    public static final Block BROWN_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("brown_concrete_pressure_plate", Blocks.BROWN_CONCRETE);
+    public static final Block RED_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("red_concrete_pressure_plate", Blocks.RED_CONCRETE);
+    public static final Block ORANGE_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("orange_concrete_pressure_plate", Blocks.ORANGE_CONCRETE);
+    public static final Block YELLOW_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("yellow_concrete_pressure_plate", Blocks.YELLOW_CONCRETE);
+    public static final Block LIME_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("lime_concrete_pressure_plate", Blocks.LIME_CONCRETE);
+    public static final Block GREEN_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("green_concrete_pressure_plate", Blocks.GREEN_CONCRETE);
+    public static final Block CYAN_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("cyan_concrete_pressure_plate", Blocks.CYAN_CONCRETE);
+    public static final Block LIGHT_BLUE_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("light_blue_concrete_pressure_plate", Blocks.LIGHT_BLUE_CONCRETE);
+    public static final Block BLUE_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("blue_concrete_pressure_plate", Blocks.BLUE_CONCRETE);
+    public static final Block PURPLE_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("purple_concrete_pressure_plate", Blocks.PURPLE_CONCRETE);
+    public static final Block MAGENTA_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("magenta_concrete_pressure_plate", Blocks.MAGENTA_CONCRETE);
+    public static final Block PINK_CONCRETE_PRESSURE_PLATE = registerStonePressurePlate("pink_concrete_pressure_plate", Blocks.PINK_CONCRETE);
 
     private static Block registerStoneButton(String path) {
         return registerStoneButton(path, BlockSetType.STONE);
@@ -188,6 +236,60 @@ public class ModBlocks {
                     itemGroup.addAfter(Blocks.END_STONE, ModBlocks.END_STONE_PRESSURE_PLATE);
                     itemGroup.addAfter(ModBlocks.END_STONE_PRESSURE_PLATE, ModBlocks.END_STONE_BUTTON);
                     itemGroup.addAfter(ModBlocks.END_STONE_BUTTON, ModBlocks.END_STONE_LEVER);
+                });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS)
+                .register((itemGroup) -> {
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PINK_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.MAGENTA_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PURPLE_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLUE_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_BLUE_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.CYAN_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GREEN_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIME_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.YELLOW_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.ORANGE_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.RED_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BROWN_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLACK_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GRAY_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_LEVER);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.WHITE_CONCRETE_LEVER);
+
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PINK_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.MAGENTA_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PURPLE_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLUE_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.CYAN_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GREEN_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIME_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.YELLOW_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.ORANGE_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.RED_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BROWN_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLACK_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GRAY_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.WHITE_CONCRETE_BUTTON);
+
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PINK_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIME_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.RED_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
+                    itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
                 });
     }
 }

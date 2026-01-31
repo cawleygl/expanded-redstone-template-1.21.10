@@ -13,6 +13,22 @@
     "expanded-redstone:tuff_button",
     "expanded-redstone:polished_tuff_button",
     "expanded-redstone:blackstone_button",
-    "expanded-redstone:end_stone_button"
+    "expanded-redstone:end_stone_button",
+    "expanded-redstone:pink_concrete_button",
+    "expanded-redstone:magenta_concrete_button",
+    "expanded-redstone:purple_concrete_button",
+    "expanded-redstone:blue_concrete_button",
+    "expanded-redstone:light_blue_concrete_button",
+    "expanded-redstone:cyan_concrete_button",
+    "expanded-redstone:green_concrete_button",
+    "expanded-redstone:lime_concrete_button",
+    "expanded-redstone:yellow_concrete_button",
+    "expanded-redstone:orange_concrete_button",
+    "expanded-redstone:red_concrete_button",
+    "expanded-redstone:brown_concrete_button",
+    "expanded-redstone:black_concrete_button",
+    "expanded-redstone:gray_concrete_button",
+    "expanded-redstone:light_gray_concrete_button",
+    "expanded-redstone:white_concrete_button"
   ]
 }

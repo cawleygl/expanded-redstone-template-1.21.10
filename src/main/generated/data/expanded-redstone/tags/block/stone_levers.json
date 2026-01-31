@@ -15,6 +15,22 @@
     "expanded-redstone:polished_tuff_lever",
     "expanded-redstone:blackstone_lever",
     "expanded-redstone:polished_blackstone_lever",
-    "expanded-redstone:end_stone_lever"
+    "expanded-redstone:end_stone_lever",
+    "expanded-redstone:pink_concrete_lever",
+    "expanded-redstone:magenta_concrete_lever",
+    "expanded-redstone:purple_concrete_lever",
+    "expanded-redstone:blue_concrete_lever",
+    "expanded-redstone:light_blue_concrete_lever",
+    "expanded-redstone:cyan_concrete_lever",
+    "expanded-redstone:green_concrete_lever",
+    "expanded-redstone:lime_concrete_lever",
+    "expanded-redstone:yellow_concrete_lever",
+    "expanded-redstone:orange_concrete_lever",
+    "expanded-redstone:red_concrete_lever",
+    "expanded-redstone:brown_concrete_lever",
+    "expanded-redstone:black_concrete_lever",
+    "expanded-redstone:gray_concrete_lever",
+    "expanded-redstone:light_gray_concrete_lever",
+    "expanded-redstone:white_concrete_lever"
   ]
 }

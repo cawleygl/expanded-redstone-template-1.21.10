@@ -28,6 +28,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TUFF_BUTTON);
         addDrop(ModBlocks.POLISHED_TUFF_BUTTON);
         addDrop(ModBlocks.END_STONE_BUTTON);
+        addDrop(ModBlocks.PINK_CONCRETE_BUTTON);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_BUTTON);
+        addDrop(ModBlocks.PURPLE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BLUE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.CYAN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.GREEN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIME_CONCRETE_BUTTON);
+        addDrop(ModBlocks.YELLOW_CONCRETE_BUTTON);
+        addDrop(ModBlocks.ORANGE_CONCRETE_BUTTON);
+        addDrop(ModBlocks.RED_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BROWN_CONCRETE_BUTTON);
+        addDrop(ModBlocks.BLACK_CONCRETE_BUTTON);
+        addDrop(ModBlocks.GRAY_CONCRETE_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
+        addDrop(ModBlocks.WHITE_CONCRETE_BUTTON);
 
         addDrop(ModBlocks.COBBLESTONE_LEVER);
         addDrop(ModBlocks.DEEPSLATE_LEVER);
@@ -44,6 +60,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TUFF_LEVER);
         addDrop(ModBlocks.POLISHED_TUFF_LEVER);
         addDrop(ModBlocks.END_STONE_LEVER);
+        addDrop(ModBlocks.PINK_CONCRETE_LEVER);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_LEVER);
+        addDrop(ModBlocks.PURPLE_CONCRETE_LEVER);
+        addDrop(ModBlocks.BLUE_CONCRETE_LEVER);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_LEVER);
+        addDrop(ModBlocks.CYAN_CONCRETE_LEVER);
+        addDrop(ModBlocks.GREEN_CONCRETE_LEVER);
+        addDrop(ModBlocks.LIME_CONCRETE_LEVER);
+        addDrop(ModBlocks.YELLOW_CONCRETE_LEVER);
+        addDrop(ModBlocks.ORANGE_CONCRETE_LEVER);
+        addDrop(ModBlocks.RED_CONCRETE_LEVER);
+        addDrop(ModBlocks.BROWN_CONCRETE_LEVER);
+        addDrop(ModBlocks.BLACK_CONCRETE_LEVER);
+        addDrop(ModBlocks.GRAY_CONCRETE_LEVER);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_LEVER);
+        addDrop(ModBlocks.WHITE_CONCRETE_LEVER);
 
         addDrop(ModBlocks.COBBLESTONE_PRESSURE_PLATE);
         addDrop(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
@@ -59,6 +91,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TUFF_PRESSURE_PLATE);
         addDrop(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
         addDrop(ModBlocks.END_STONE_PRESSURE_PLATE);
-
+        addDrop(ModBlocks.PINK_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIME_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
+        addDrop(ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
     }
 }

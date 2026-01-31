@@ -1,5 +1,5 @@
 // 1.21.10	-999999999-01-01T00:00:00	Expanded Redstone/Tags for minecraft:block
-e76afd1f66aeba8a6281c2d1ac1fd6e454051ee3 data/expanded-redstone/tags/block/stone_levers.json
+c97dbcbd37b49c41502cc46563c58b84bed10a5d data/expanded-redstone/tags/block/stone_levers.json
 17fbc451550728b8d7fbc21bb957cd9127a38066 data/minecraft/tags/block/mineable/pickaxe.json
-eb0919d85b34e579ad203abd0deb3c6d5c66e23a data/minecraft/tags/block/stone_buttons.json
-c55ae95e98b9bd04bfb04dda420f78464b97bb7a data/minecraft/tags/block/stone_pressure_plates.json
+0d3eabed714a712902eaca85e5a808dadff53bce data/minecraft/tags/block/stone_buttons.json
+f892bcc973601ea4489d64e0b2d55b1cc11d29b4 data/minecraft/tags/block/stone_pressure_plates.json

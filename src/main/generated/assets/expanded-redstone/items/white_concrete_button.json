@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "expanded-redstone:block/white_concrete_button_inventory"
+  }
+}

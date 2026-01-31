@@ -31,6 +31,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.POLISHED_TUFF_BUTTON);
         valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.BLACKSTONE_BUTTON);
         valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.END_STONE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.PINK_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.MAGENTA_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.PURPLE_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.BLUE_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.CYAN_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.GREEN_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.LIME_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.YELLOW_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.ORANGE_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.RED_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.BROWN_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.BLACK_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.GRAY_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON);
+        valueLookupBuilder(BlockTags.STONE_BUTTONS).add(ModBlocks.WHITE_CONCRETE_BUTTON);
 
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(Blocks.LEVER);
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.COBBLESTONE_LEVER);
@@ -48,6 +64,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.BLACKSTONE_LEVER);
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.POLISHED_BLACKSTONE_LEVER);
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.END_STONE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.PINK_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.MAGENTA_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.PURPLE_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.BLUE_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.LIGHT_BLUE_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.CYAN_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.GREEN_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.LIME_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.YELLOW_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.ORANGE_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.RED_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.BROWN_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.BLACK_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.GRAY_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.LIGHT_GRAY_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.WHITE_CONCRETE_LEVER);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).addTag(ModTags.Blocks.STONE_LEVERS);
 
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.COBBLESTONE_PRESSURE_PLATE);
@@ -64,6 +96,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.POLISHED_TUFF_PRESSURE_PLATE);
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.BLACKSTONE_PRESSURE_PLATE);
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.END_STONE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.PINK_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.LIME_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.RED_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
 
     }
 }

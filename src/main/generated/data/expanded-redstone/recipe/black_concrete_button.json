@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:black_concrete"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expanded-redstone:black_concrete_button"
+  }
+}
