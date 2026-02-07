@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
+  "group": "stone_lever",
   "key": {
     "#": "minecraft:cobbled_deepslate",
     "X": "minecraft:stick"

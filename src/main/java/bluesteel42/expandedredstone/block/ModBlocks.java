@@ -1,5 +1,27 @@
 package bluesteel42.expandedredstone.block;
 
+import bluesteel42.combinedworldgen.wood.azalea.AzaleaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.azalea.block.AzaleaWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.baobab.BaobabWoodInitializer;
+import bluesteel42.combinedworldgen.wood.baobab.block.BaobabWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.cholla.ChollaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.cholla.block.ChollaWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.chorus.ChorusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.chorus.block.ChorusWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.citrus.CitrusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.citrus.block.CitrusWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.dogwood.DogwoodWoodInitializer;
+import bluesteel42.combinedworldgen.wood.dogwood.block.DogwoodWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.kapok.KapokWoodInitializer;
+import bluesteel42.combinedworldgen.wood.kapok.block.KapokWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.maple.MapleWoodInitializer;
+import bluesteel42.combinedworldgen.wood.maple.block.MapleWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.petrified.PetrifiedWoodInitializer;
+import bluesteel42.combinedworldgen.wood.petrified.block.PetrifiedWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.pine.PineWoodInitializer;
+import bluesteel42.combinedworldgen.wood.pine.block.PineWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.willow.WillowWoodInitializer;
+import bluesteel42.combinedworldgen.wood.willow.block.WillowWoodModBlocks;
 import bluesteel42.expandedredstone.ExpandedRedstone;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -83,6 +105,31 @@ public class ModBlocks {
     public static final Block MAGENTA_CONCRETE_LEVER = registerStoneLever("magenta_concrete_lever");
     public static final Block PINK_CONCRETE_LEVER = registerStoneLever("pink_concrete_lever");
 
+    public static final Block OAK_LEVER = registerWoodenLever("oak_lever", BlockSetType.OAK);
+    public static final Block SPRUCE_LEVER = registerWoodenLever("spruce_lever", BlockSetType.SPRUCE);
+    public static final Block BIRCH_LEVER = registerWoodenLever("birch_lever", BlockSetType.BIRCH);
+    public static final Block JUNGLE_LEVER = registerWoodenLever("jungle_lever", BlockSetType.JUNGLE);
+    public static final Block ACACIA_LEVER = registerWoodenLever("acacia_lever", BlockSetType.ACACIA);
+    public static final Block CHERRY_LEVER = registerWoodenLever("cherry_lever", BlockSetType.CHERRY);
+    public static final Block DARK_OAK_LEVER = registerWoodenLever("dark_oak_lever", BlockSetType.DARK_OAK);
+    public static final Block PALE_OAK_LEVER = registerWoodenLever("pale_oak_lever", BlockSetType.PALE_OAK);
+    public static final Block MANGROVE_LEVER = registerWoodenLever("mangrove_lever", BlockSetType.MANGROVE);
+    public static final Block BAMBOO_LEVER = registerWoodenLever("bamboo_lever", BlockSetType.BAMBOO);
+    public static final Block CRIMSON_LEVER = registerWoodenLever("crimson_lever", BlockSetType.CRIMSON);
+    public static final Block WARPED_LEVER = registerWoodenLever("warped_lever", BlockSetType.WARPED);
+
+    public static final Block AZALEA_LEVER = registerWoodenLever(AzaleaWoodInitializer.MOD_WOOD_NAME + "_lever", AzaleaWoodInitializer.MOD_BLOCK_SET);
+    public static final Block BAOBAB_LEVER = registerWoodenLever(BaobabWoodInitializer.MOD_WOOD_NAME + "_lever", BaobabWoodInitializer.MOD_BLOCK_SET);
+    public static final Block CHOLLA_LEVER = registerWoodenLever(ChollaWoodInitializer.MOD_WOOD_NAME + "_lever", ChollaWoodInitializer.MOD_BLOCK_SET);
+    public static final Block CHORUS_LEVER = registerWoodenLever(ChorusWoodInitializer.MOD_WOOD_NAME + "_lever", ChorusWoodInitializer.MOD_BLOCK_SET);
+    public static final Block CITRUS_LEVER = registerWoodenLever(CitrusWoodInitializer.MOD_WOOD_NAME + "_lever", CitrusWoodInitializer.MOD_BLOCK_SET);
+    public static final Block DOGWOOD_LEVER = registerWoodenLever(DogwoodWoodInitializer.MOD_WOOD_NAME + "_lever", DogwoodWoodInitializer.MOD_BLOCK_SET);
+    public static final Block KAPOK_LEVER = registerWoodenLever(KapokWoodInitializer.MOD_WOOD_NAME + "_lever", KapokWoodInitializer.MOD_BLOCK_SET);
+    public static final Block MAPLE_LEVER = registerWoodenLever(MapleWoodInitializer.MOD_WOOD_NAME + "_lever", MapleWoodInitializer.MOD_BLOCK_SET);
+    public static final Block PINE_LEVER = registerWoodenLever(PineWoodInitializer.MOD_WOOD_NAME + "_lever", PineWoodInitializer.MOD_BLOCK_SET);
+    public static final Block WILLOW_LEVER = registerWoodenLever(WillowWoodInitializer.MOD_WOOD_NAME + "_lever", WillowWoodInitializer.MOD_BLOCK_SET);
+    public static final Block PETRIFIED_LEVER = registerStoneLever(PetrifiedWoodInitializer.MOD_WOOD_NAME + "_lever");
+
     public static final Block COBBLESTONE_PRESSURE_PLATE = registerStonePressurePlate("cobblestone_pressure_plate", Blocks.COBBLESTONE);
     public static final Block DEEPSLATE_PRESSURE_PLATE = registerStonePressurePlate("deepslate_pressure_plate", Blocks.DEEPSLATE, ModBlockSetType.DEEPSLATE);
     public static final Block COBBLED_DEEPSLATE_PRESSURE_PLATE = registerStonePressurePlate("cobbled_deepslate_pressure_plate", Blocks.COBBLED_DEEPSLATE, ModBlockSetType.DEEPSLATE);
@@ -120,11 +167,17 @@ public class ModBlocks {
     private static Block registerStoneButton(String path, BlockSetType set) {
         return register(path, settings -> new ButtonBlock(set, 20, settings), createButtonSettings());
     }
+    public static AbstractBlock.Settings createLeverSettings(BlockSoundGroup sounds) {
+        return AbstractBlock.Settings.create().noCollision().strength(0.5F).sounds(sounds).pistonBehavior(PistonBehavior.DESTROY);
+    }
     private static Block registerStoneLever(String path) {
         return registerStoneLever(path, BlockSoundGroup.STONE);
     }
     private static Block registerStoneLever(String path, BlockSoundGroup sounds) {
-        return register(path, LeverBlock::new, AbstractBlock.Settings.create().noCollision().strength(0.5F).sounds(sounds).pistonBehavior(PistonBehavior.DESTROY));
+        return register(path, LeverBlock::new, createLeverSettings(sounds));
+    }
+    private static Block registerWoodenLever(String path, BlockSetType set) {
+        return register(path, settings -> new WoodenLeverBlock(set, settings), createLeverSettings(set.soundType()));
     }
     private static Block registerStonePressurePlate(String path, Block material) {
         return registerStonePressurePlate(path, material, BlockSetType.STONE);
@@ -236,6 +289,32 @@ public class ModBlocks {
                     itemGroup.addAfter(Blocks.END_STONE, ModBlocks.END_STONE_PRESSURE_PLATE);
                     itemGroup.addAfter(ModBlocks.END_STONE_PRESSURE_PLATE, ModBlocks.END_STONE_BUTTON);
                     itemGroup.addAfter(ModBlocks.END_STONE_BUTTON, ModBlocks.END_STONE_LEVER);
+
+                    itemGroup.addAfter(Blocks.OAK_BUTTON, ModBlocks.OAK_LEVER);
+                    itemGroup.addAfter(Blocks.SPRUCE_BUTTON, ModBlocks.SPRUCE_LEVER);
+                    itemGroup.addAfter(Blocks.BIRCH_BUTTON, ModBlocks.BIRCH_LEVER);
+                    itemGroup.addAfter(Blocks.JUNGLE_BUTTON, ModBlocks.JUNGLE_LEVER);
+                    itemGroup.addAfter(Blocks.ACACIA_BUTTON, ModBlocks.ACACIA_LEVER);
+                    itemGroup.addAfter(Blocks.CHERRY_BUTTON, ModBlocks.CHERRY_LEVER);
+                    itemGroup.addAfter(Blocks.DARK_OAK_BUTTON, ModBlocks.DARK_OAK_LEVER);
+                    itemGroup.addAfter(Blocks.PALE_OAK_BUTTON, ModBlocks.PALE_OAK_LEVER);
+                    itemGroup.addAfter(Blocks.MANGROVE_BUTTON, ModBlocks.MANGROVE_LEVER);
+                    itemGroup.addAfter(Blocks.BAMBOO_BUTTON, ModBlocks.BAMBOO_LEVER);
+                    itemGroup.addAfter(Blocks.CRIMSON_BUTTON, ModBlocks.CRIMSON_LEVER);
+                    itemGroup.addAfter(Blocks.WARPED_BUTTON, ModBlocks.WARPED_LEVER);
+
+                    itemGroup.addAfter(AzaleaWoodModBlocks.MOD_BUTTON, ModBlocks.AZALEA_LEVER);
+                    itemGroup.addAfter(BaobabWoodModBlocks.MOD_BUTTON, ModBlocks.BAOBAB_LEVER);
+                    itemGroup.addAfter(ChollaWoodModBlocks.MOD_BUTTON, ModBlocks.CHOLLA_LEVER);
+                    itemGroup.addAfter(ChorusWoodModBlocks.MOD_BUTTON, ModBlocks.CHORUS_LEVER);
+                    itemGroup.addAfter(CitrusWoodModBlocks.MOD_BUTTON, ModBlocks.CITRUS_LEVER);
+                    itemGroup.addAfter(DogwoodWoodModBlocks.MOD_BUTTON, ModBlocks.DOGWOOD_LEVER);
+                    itemGroup.addAfter(KapokWoodModBlocks.MOD_BUTTON, ModBlocks.KAPOK_LEVER);
+                    itemGroup.addAfter(MapleWoodModBlocks.MOD_BUTTON, ModBlocks.MAPLE_LEVER);
+                    itemGroup.addAfter(PineWoodModBlocks.MOD_BUTTON, ModBlocks.PINE_LEVER);
+                    itemGroup.addAfter(WillowWoodModBlocks.MOD_BUTTON, ModBlocks.WILLOW_LEVER);
+
+                    itemGroup.addAfter(PetrifiedWoodModBlocks.MOD_BUTTON, ModBlocks.PETRIFIED_LEVER);
                 });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS)
@@ -290,6 +369,11 @@ public class ModBlocks {
                     itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE);
                     itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE);
                     itemGroup.addAfter(Blocks.PINK_CONCRETE, ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE);
+                });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE)
+                .register((itemGroup) -> {
+                    itemGroup.addBefore(Blocks.LEVER, ModBlocks.OAK_LEVER);
                 });
     }
 }

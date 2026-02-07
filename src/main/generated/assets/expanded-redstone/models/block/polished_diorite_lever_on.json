@@ -1,7 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever_on",
   "textures": {
-    "base": "minecraft:block/polished_diorite",
-    "lever": "expanded-redstone:block/polished_diorite_lever"
+    "base": "minecraft:block/polished_diorite"
   }
 }

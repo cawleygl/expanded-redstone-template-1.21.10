@@ -1,9 +1,21 @@
 package bluesteel42.expandedredstone.datagen;
 
+import bluesteel42.combinedworldgen.wood.azalea.AzaleaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.baobab.BaobabWoodInitializer;
+import bluesteel42.combinedworldgen.wood.cholla.ChollaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.chorus.ChorusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.citrus.CitrusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.dogwood.DogwoodWoodInitializer;
+import bluesteel42.combinedworldgen.wood.kapok.KapokWoodInitializer;
+import bluesteel42.combinedworldgen.wood.maple.MapleWoodInitializer;
+import bluesteel42.combinedworldgen.wood.petrified.PetrifiedWoodInitializer;
+import bluesteel42.combinedworldgen.wood.pine.PineWoodInitializer;
+import bluesteel42.combinedworldgen.wood.willow.WillowWoodInitializer;
 import bluesteel42.expandedredstone.block.ModBlocks;
 import bluesteel42.expandedredstone.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -80,7 +92,33 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.GRAY_CONCRETE_LEVER);
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.LIGHT_GRAY_CONCRETE_LEVER);
         valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.WHITE_CONCRETE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.STONE_LEVERS).add(ModBlocks.PETRIFIED_LEVER);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).addTag(ModTags.Blocks.STONE_LEVERS);
+
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.OAK_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.SPRUCE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.BIRCH_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.JUNGLE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.ACACIA_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.DARK_OAK_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.PALE_OAK_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.MANGROVE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CHERRY_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.BAMBOO_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CRIMSON_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.WARPED_LEVER);
+
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.AZALEA_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.BAOBAB_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CHOLLA_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CHORUS_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CITRUS_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.DOGWOOD_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.KAPOK_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.MAPLE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.PINE_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.WILLOW_LEVER);
+        valueLookupBuilder(BlockTags.AXE_MINEABLE).addTag(ModTags.Blocks.WOODEN_LEVERS);
 
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.COBBLESTONE_PRESSURE_PLATE);
         valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES).add(ModBlocks.DEEPSLATE_PRESSURE_PLATE);

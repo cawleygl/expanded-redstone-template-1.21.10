@@ -1,7 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever",
   "textures": {
-    "base": "minecraft:block/cobblestone",
-    "lever": "expanded-redstone:block/cobblestone_lever"
+    "base": "minecraft:block/cobblestone"
   }
 }

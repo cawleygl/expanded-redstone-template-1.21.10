@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_lever",
+  "key": {
+    "#": "minecraft:pale_oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expanded-redstone:pale_oak_lever"
+  }
+}

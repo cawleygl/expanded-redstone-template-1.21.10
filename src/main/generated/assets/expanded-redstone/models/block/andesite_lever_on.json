@@ -1,7 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever_on",
   "textures": {
-    "base": "minecraft:block/andesite",
-    "lever": "expanded-redstone:block/andesite_lever"
+    "base": "minecraft:block/andesite"
   }
 }

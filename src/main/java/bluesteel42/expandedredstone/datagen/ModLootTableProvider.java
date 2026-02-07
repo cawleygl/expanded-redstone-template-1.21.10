@@ -1,8 +1,20 @@
 package bluesteel42.expandedredstone.datagen;
 
+import bluesteel42.combinedworldgen.wood.azalea.AzaleaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.baobab.BaobabWoodInitializer;
+import bluesteel42.combinedworldgen.wood.cholla.ChollaWoodInitializer;
+import bluesteel42.combinedworldgen.wood.chorus.ChorusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.citrus.CitrusWoodInitializer;
+import bluesteel42.combinedworldgen.wood.dogwood.DogwoodWoodInitializer;
+import bluesteel42.combinedworldgen.wood.kapok.KapokWoodInitializer;
+import bluesteel42.combinedworldgen.wood.maple.MapleWoodInitializer;
+import bluesteel42.combinedworldgen.wood.petrified.PetrifiedWoodInitializer;
+import bluesteel42.combinedworldgen.wood.pine.PineWoodInitializer;
+import bluesteel42.combinedworldgen.wood.willow.WillowWoodInitializer;
 import bluesteel42.expandedredstone.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -76,6 +88,31 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRAY_CONCRETE_LEVER);
         addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_LEVER);
         addDrop(ModBlocks.WHITE_CONCRETE_LEVER);
+
+        addDrop(ModBlocks.OAK_LEVER);
+        addDrop(ModBlocks.SPRUCE_LEVER);
+        addDrop(ModBlocks.BIRCH_LEVER);
+        addDrop(ModBlocks.JUNGLE_LEVER);
+        addDrop(ModBlocks.ACACIA_LEVER);
+        addDrop(ModBlocks.DARK_OAK_LEVER);
+        addDrop(ModBlocks.PALE_OAK_LEVER);
+        addDrop(ModBlocks.MANGROVE_LEVER);
+        addDrop(ModBlocks.CHERRY_LEVER);
+        addDrop(ModBlocks.BAMBOO_LEVER);
+        addDrop(ModBlocks.CRIMSON_LEVER);
+        addDrop(ModBlocks.WARPED_LEVER);
+
+        addDrop(ModBlocks.AZALEA_LEVER);
+        addDrop(ModBlocks.BAOBAB_LEVER);
+        addDrop(ModBlocks.CHOLLA_LEVER);
+        addDrop(ModBlocks.CHORUS_LEVER);
+        addDrop(ModBlocks.CITRUS_LEVER);
+        addDrop(ModBlocks.DOGWOOD_LEVER);
+        addDrop(ModBlocks.KAPOK_LEVER);
+        addDrop(ModBlocks.MAPLE_LEVER);
+        addDrop(ModBlocks.PINE_LEVER);
+        addDrop(ModBlocks.WILLOW_LEVER);
+        addDrop(ModBlocks.PETRIFIED_LEVER);
 
         addDrop(ModBlocks.COBBLESTONE_PRESSURE_PLATE);
         addDrop(ModBlocks.DEEPSLATE_PRESSURE_PLATE);

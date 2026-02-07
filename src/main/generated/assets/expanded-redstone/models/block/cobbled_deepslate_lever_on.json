@@ -1,7 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever_on",
   "textures": {
-    "base": "minecraft:block/cobbled_deepslate",
-    "lever": "expanded-redstone:block/cobbled_deepslate_lever"
+    "base": "minecraft:block/cobbled_deepslate"
   }
 }

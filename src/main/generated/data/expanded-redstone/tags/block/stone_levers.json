@@ -31,6 +31,7 @@
     "expanded-redstone:black_concrete_lever",
     "expanded-redstone:gray_concrete_lever",
     "expanded-redstone:light_gray_concrete_lever",
-    "expanded-redstone:white_concrete_lever"
+    "expanded-redstone:white_concrete_lever",
+    "expanded-redstone:petrified_lever"
   ]
 }

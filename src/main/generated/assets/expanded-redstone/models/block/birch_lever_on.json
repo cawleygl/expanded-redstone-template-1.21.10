@@ -1,0 +1,6 @@
+{
+  "parent": "expanded-redstone:block/template_lever_on",
+  "textures": {
+    "base": "minecraft:block/birch_planks"
+  }
+}

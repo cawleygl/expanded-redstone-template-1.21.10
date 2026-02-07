@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pine_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combined-worldgen:pine_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "expanded-redstone:pine_lever"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pine_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "expanded-redstone:pine_lever"
+    ]
+  }
+}

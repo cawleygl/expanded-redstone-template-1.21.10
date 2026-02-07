@@ -1,5 +1,16 @@
 package bluesteel42.expandedredstone.datagen;
 
+import bluesteel42.combinedworldgen.wood.azalea.block.AzaleaWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.baobab.block.BaobabWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.cholla.block.ChollaWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.chorus.block.ChorusWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.citrus.block.CitrusWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.dogwood.block.DogwoodWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.kapok.block.KapokWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.maple.block.MapleWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.petrified.block.PetrifiedWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.pine.block.PineWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.willow.block.WillowWoodModBlocks;
 import bluesteel42.expandedredstone.ExpandedRedstone;
 import bluesteel42.expandedredstone.block.ModBlocks;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
@@ -23,11 +34,10 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     private static final TextureKey BASE = TextureKey.of("base");
-    private static final TextureKey LEVER = TextureKey.of("lever");
-    private static final Model LEVER_OFF = modBlock("template_lever", BASE, LEVER);
-    private static final Model LEVER_ON = modBlock("template_lever_on", BASE, LEVER);
+    private static final Model LEVER_OFF = modBlock("template_lever", BASE);
+    private static final Model LEVER_ON = modBlock("template_lever_on", BASE);
     private void registerLever(BlockStateModelGenerator blockStateModelGenerator, Block lever, Block material) {
-        TextureMap textureMap = new TextureMap().put(BASE, getId(material)).put(LEVER, getId(lever));
+        TextureMap textureMap = new TextureMap().put(BASE, getId(material));
         WeightedVariant weightedVariant = BlockStateModelGenerator.createWeightedVariant(
                 LEVER_OFF.upload(lever, textureMap, blockStateModelGenerator.modelCollector)
         );
@@ -147,6 +157,31 @@ public class ModModelProvider extends FabricModelProvider {
         registerLever(blockStateModelGenerator, ModBlocks.MAGENTA_CONCRETE_LEVER, Blocks.MAGENTA_CONCRETE);
         registerLever(blockStateModelGenerator, ModBlocks.PINK_CONCRETE_LEVER, Blocks.PINK_CONCRETE);
 
+        registerLever(blockStateModelGenerator, ModBlocks.OAK_LEVER, Blocks.OAK_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.SPRUCE_LEVER, Blocks.SPRUCE_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.BIRCH_LEVER, Blocks.BIRCH_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.JUNGLE_LEVER, Blocks.JUNGLE_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.ACACIA_LEVER, Blocks.ACACIA_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.DARK_OAK_LEVER, Blocks.DARK_OAK_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.PALE_OAK_LEVER, Blocks.PALE_OAK_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.MANGROVE_LEVER, Blocks.MANGROVE_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CHERRY_LEVER, Blocks.CHERRY_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.BAMBOO_LEVER, Blocks.BAMBOO_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CRIMSON_LEVER, Blocks.CRIMSON_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.WARPED_LEVER, Blocks.WARPED_PLANKS);
+
+        registerLever(blockStateModelGenerator, ModBlocks.AZALEA_LEVER, AzaleaWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.BAOBAB_LEVER, BaobabWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CHOLLA_LEVER, ChollaWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CHORUS_LEVER, ChorusWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CITRUS_LEVER, CitrusWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.DOGWOOD_LEVER, DogwoodWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.KAPOK_LEVER, KapokWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.MAPLE_LEVER, MapleWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.PINE_LEVER, PineWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.WILLOW_LEVER, WillowWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.PETRIFIED_LEVER, PetrifiedWoodModBlocks.MOD_PLANKS);
+
         registerPressurePlate(blockStateModelGenerator, ModBlocks.COBBLESTONE_PRESSURE_PLATE, Blocks.COBBLESTONE);
         registerPressurePlate(blockStateModelGenerator, ModBlocks.DEEPSLATE_PRESSURE_PLATE, Blocks.DEEPSLATE);
         registerPressurePlate(blockStateModelGenerator, ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE, Blocks.COBBLED_DEEPSLATE);
@@ -177,7 +212,6 @@ public class ModModelProvider extends FabricModelProvider {
         registerPressurePlate(blockStateModelGenerator, ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE, Blocks.PURPLE_CONCRETE);
         registerPressurePlate(blockStateModelGenerator, ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE, Blocks.MAGENTA_CONCRETE);
         registerPressurePlate(blockStateModelGenerator, ModBlocks.PINK_CONCRETE_PRESSURE_PLATE, Blocks.PINK_CONCRETE);
-
 
     }
 

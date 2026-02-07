@@ -1,7 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever",
   "textures": {
-    "base": "minecraft:block/orange_concrete",
-    "lever": "expanded-redstone:block/orange_concrete_lever"
+    "base": "minecraft:block/orange_concrete"
   }
 }
