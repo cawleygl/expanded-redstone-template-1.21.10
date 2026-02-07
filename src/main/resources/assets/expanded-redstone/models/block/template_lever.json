@@ -3,19 +3,19 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "#base",
-		"lever": "minecraft:block/lever"
+		"lever": "block/lever",
+		"particle": "#base"
 	},
 	"elements": [
 		{
 			"from": [5, -0.02, 4],
 			"to": [11, 2.98, 12],
 			"faces": {
-				"north": {"uv": [5, 0, 11, 3], "texture": "#base"},
-				"east": {"uv": [4, 0, 12, 3], "texture": "#base"},
-				"south": {"uv": [5, 0, 11, 3], "texture": "#base"},
-				"west": {"uv": [4, 0, 12, 3], "texture": "#base"},
-				"up": {"uv": [5, 4, 11, 12], "texture": "#base"},
+				"north": {"uv": [5, 12, 11, 15], "texture": "#base"},
+				"east": {"uv": [2, 4, 5, 12], "rotation": 270, "texture": "#base"},
+				"south": {"uv": [5, 4, 11, 1], "texture": "#base"},
+				"west": {"uv": [11, 4, 14, 12], "rotation": 90, "texture": "#base"},
+				"up": {"uv": [11, 12, 5, 4], "texture": "#base"},
 				"down": {"uv": [5, 4, 11, 12], "texture": "#base", "cullface": "down"}
 			}
 		},
