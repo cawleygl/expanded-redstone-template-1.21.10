@@ -65,6 +65,7 @@
   "block.expanded-redstone.oak_lever": "Oak Lever",
   "block.expanded-redstone.spruce_lever": "Spruce Lever",
   "block.expanded-redstone.birch_lever": "Birch Lever",
+  "block.expanded-redstone.jungle_lever": "Jungle Lever",
   "block.expanded-redstone.acacia_lever": "Acacia Lever",
   "block.expanded-redstone.dark_oak_lever": "Dark Oak Lever",
   "block.expanded-redstone.pale_oak_lever": "Pale Oak Lever",
@@ -74,9 +75,9 @@
   "block.expanded-redstone.crimson_lever": "Crimson Lever",
   "block.expanded-redstone.warped_lever": "Warped Lever",
 
-  "block.expanded-redstone.jungle_lever": "Cacao Lever",
   "block.expanded-redstone.azalea_lever": "Azalea Lever",
   "block.expanded-redstone.baobab_lever": "Baobab Lever",
+  "block.expanded-redstone.cacao_lever": "Cacao Lever",
   "block.expanded-redstone.cholla_lever": "Cholla Lever",
   "block.expanded-redstone.chorus_lever": "Chorus Lever",
   "block.expanded-redstone.citrus_lever": "Citrus Lever",

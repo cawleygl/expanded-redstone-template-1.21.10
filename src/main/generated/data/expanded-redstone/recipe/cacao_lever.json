@@ -3,7 +3,7 @@
   "category": "redstone",
   "group": "wooden_lever",
   "key": {
-    "#": "minecraft:jungle_planks",
+    "#": "combined-worldgen:cacao_planks",
     "X": "minecraft:stick"
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "expanded-redstone:jungle_lever"
+    "id": "expanded-redstone:cacao_lever"
   }
 }

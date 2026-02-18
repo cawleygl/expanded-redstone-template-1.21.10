@@ -1,6 +1,6 @@
 {
   "parent": "expanded-redstone:block/template_lever_on",
   "textures": {
-    "base": "minecraft:block/jungle_planks"
+    "base": "combined-worldgen:block/cacao_planks"
   }
 }

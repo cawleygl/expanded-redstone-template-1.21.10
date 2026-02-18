@@ -4,6 +4,8 @@ import bluesteel42.combinedworldgen.wood.azalea.AzaleaWoodInitializer;
 import bluesteel42.combinedworldgen.wood.azalea.block.AzaleaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.baobab.BaobabWoodInitializer;
 import bluesteel42.combinedworldgen.wood.baobab.block.BaobabWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.cacao.CacaoWoodInitializer;
+import bluesteel42.combinedworldgen.wood.cacao.block.CacaoWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.cholla.ChollaWoodInitializer;
 import bluesteel42.combinedworldgen.wood.cholla.block.ChollaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.chorus.ChorusWoodInitializer;
@@ -108,7 +110,7 @@ public class ModBlocks {
     public static final Block OAK_LEVER = registerWoodenLever("oak_lever", BlockSetType.OAK);
     public static final Block SPRUCE_LEVER = registerWoodenLever("spruce_lever", BlockSetType.SPRUCE);
     public static final Block BIRCH_LEVER = registerWoodenLever("birch_lever", BlockSetType.BIRCH);
-    public static final Block JUNGLE_LEVER = registerWoodenLever("jungle_lever", BlockSetType.JUNGLE);
+//    public static final Block JUNGLE_LEVER = registerWoodenLever("jungle_lever", BlockSetType.JUNGLE);
     public static final Block ACACIA_LEVER = registerWoodenLever("acacia_lever", BlockSetType.ACACIA);
     public static final Block CHERRY_LEVER = registerWoodenLever("cherry_lever", BlockSetType.CHERRY);
     public static final Block DARK_OAK_LEVER = registerWoodenLever("dark_oak_lever", BlockSetType.DARK_OAK);
@@ -120,6 +122,7 @@ public class ModBlocks {
 
     public static final Block AZALEA_LEVER = registerWoodenLever(AzaleaWoodInitializer.MOD_WOOD_NAME + "_lever", AzaleaWoodInitializer.MOD_BLOCK_SET);
     public static final Block BAOBAB_LEVER = registerWoodenLever(BaobabWoodInitializer.MOD_WOOD_NAME + "_lever", BaobabWoodInitializer.MOD_BLOCK_SET);
+    public static final Block CACAO_LEVER = registerWoodenLever(CacaoWoodInitializer.MOD_WOOD_NAME + "_lever", CacaoWoodInitializer.MOD_BLOCK_SET);
     public static final Block CHOLLA_LEVER = registerWoodenLever(ChollaWoodInitializer.MOD_WOOD_NAME + "_lever", ChollaWoodInitializer.MOD_BLOCK_SET);
     public static final Block CHORUS_LEVER = registerWoodenLever(ChorusWoodInitializer.MOD_WOOD_NAME + "_lever", ChorusWoodInitializer.MOD_BLOCK_SET);
     public static final Block CITRUS_LEVER = registerWoodenLever(CitrusWoodInitializer.MOD_WOOD_NAME + "_lever", CitrusWoodInitializer.MOD_BLOCK_SET);
@@ -293,7 +296,7 @@ public class ModBlocks {
                     itemGroup.addAfter(Blocks.OAK_BUTTON, ModBlocks.OAK_LEVER);
                     itemGroup.addAfter(Blocks.SPRUCE_BUTTON, ModBlocks.SPRUCE_LEVER);
                     itemGroup.addAfter(Blocks.BIRCH_BUTTON, ModBlocks.BIRCH_LEVER);
-                    itemGroup.addAfter(Blocks.JUNGLE_BUTTON, ModBlocks.JUNGLE_LEVER);
+//                    itemGroup.addAfter(Blocks.JUNGLE_BUTTON, ModBlocks.JUNGLE_LEVER);
                     itemGroup.addAfter(Blocks.ACACIA_BUTTON, ModBlocks.ACACIA_LEVER);
                     itemGroup.addAfter(Blocks.CHERRY_BUTTON, ModBlocks.CHERRY_LEVER);
                     itemGroup.addAfter(Blocks.DARK_OAK_BUTTON, ModBlocks.DARK_OAK_LEVER);
@@ -305,6 +308,7 @@ public class ModBlocks {
 
                     itemGroup.addAfter(AzaleaWoodModBlocks.MOD_BUTTON, ModBlocks.AZALEA_LEVER);
                     itemGroup.addAfter(BaobabWoodModBlocks.MOD_BUTTON, ModBlocks.BAOBAB_LEVER);
+                    itemGroup.addAfter(CacaoWoodModBlocks.MOD_BUTTON, ModBlocks.CACAO_LEVER);
                     itemGroup.addAfter(ChollaWoodModBlocks.MOD_BUTTON, ModBlocks.CHOLLA_LEVER);
                     itemGroup.addAfter(ChorusWoodModBlocks.MOD_BUTTON, ModBlocks.CHORUS_LEVER);
                     itemGroup.addAfter(CitrusWoodModBlocks.MOD_BUTTON, ModBlocks.CITRUS_LEVER);

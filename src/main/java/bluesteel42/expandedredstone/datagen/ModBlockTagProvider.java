@@ -98,7 +98,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.OAK_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.SPRUCE_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.BIRCH_LEVER);
-        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.JUNGLE_LEVER);
+//        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.JUNGLE_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.ACACIA_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.DARK_OAK_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.PALE_OAK_LEVER);
@@ -110,6 +110,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.AZALEA_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.BAOBAB_LEVER);
+        valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CACAO_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CHOLLA_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CHORUS_LEVER);
         valueLookupBuilder(ModTags.Blocks.WOODEN_LEVERS).add(ModBlocks.CITRUS_LEVER);

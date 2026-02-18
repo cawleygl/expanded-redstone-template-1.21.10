@@ -2,6 +2,7 @@ package bluesteel42.expandedredstone.datagen;
 
 import bluesteel42.combinedworldgen.wood.azalea.block.AzaleaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.baobab.block.BaobabWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.cacao.block.CacaoWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.cholla.block.ChollaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.chorus.block.ChorusWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.citrus.block.CitrusWoodModBlocks;
@@ -119,7 +120,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerWoodenLeverRecipe(ModBlocks.OAK_LEVER, Blocks.OAK_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.SPRUCE_LEVER, Blocks.SPRUCE_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.BIRCH_LEVER, Blocks.BIRCH_PLANKS);
-                offerWoodenLeverRecipe(ModBlocks.JUNGLE_LEVER, Blocks.JUNGLE_PLANKS);
+//                offerWoodenLeverRecipe(ModBlocks.JUNGLE_LEVER, Blocks.JUNGLE_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.ACACIA_LEVER, Blocks.ACACIA_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.DARK_OAK_LEVER, Blocks.DARK_OAK_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.PALE_OAK_LEVER, Blocks.PALE_OAK_PLANKS);
@@ -131,6 +132,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 offerWoodenLeverRecipe(ModBlocks.AZALEA_LEVER, AzaleaWoodModBlocks.MOD_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.BAOBAB_LEVER, BaobabWoodModBlocks.MOD_PLANKS);
+                offerWoodenLeverRecipe(ModBlocks.CACAO_LEVER, CacaoWoodModBlocks.MOD_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.CHOLLA_LEVER, ChollaWoodModBlocks.MOD_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.CHORUS_LEVER, ChorusWoodModBlocks.MOD_PLANKS);
                 offerWoodenLeverRecipe(ModBlocks.CITRUS_LEVER, CitrusWoodModBlocks.MOD_PLANKS);

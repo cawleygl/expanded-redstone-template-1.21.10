@@ -2,6 +2,7 @@ package bluesteel42.expandedredstone.datagen;
 
 import bluesteel42.combinedworldgen.wood.azalea.block.AzaleaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.baobab.block.BaobabWoodModBlocks;
+import bluesteel42.combinedworldgen.wood.cacao.block.CacaoWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.cholla.block.ChollaWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.chorus.block.ChorusWoodModBlocks;
 import bluesteel42.combinedworldgen.wood.citrus.block.CitrusWoodModBlocks;
@@ -160,7 +161,7 @@ public class ModModelProvider extends FabricModelProvider {
         registerLever(blockStateModelGenerator, ModBlocks.OAK_LEVER, Blocks.OAK_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.SPRUCE_LEVER, Blocks.SPRUCE_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.BIRCH_LEVER, Blocks.BIRCH_PLANKS);
-        registerLever(blockStateModelGenerator, ModBlocks.JUNGLE_LEVER, Blocks.JUNGLE_PLANKS);
+//        registerLever(blockStateModelGenerator, ModBlocks.JUNGLE_LEVER, Blocks.JUNGLE_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.ACACIA_LEVER, Blocks.ACACIA_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.DARK_OAK_LEVER, Blocks.DARK_OAK_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.PALE_OAK_LEVER, Blocks.PALE_OAK_PLANKS);
@@ -172,6 +173,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         registerLever(blockStateModelGenerator, ModBlocks.AZALEA_LEVER, AzaleaWoodModBlocks.MOD_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.BAOBAB_LEVER, BaobabWoodModBlocks.MOD_PLANKS);
+        registerLever(blockStateModelGenerator, ModBlocks.CACAO_LEVER, CacaoWoodModBlocks.MOD_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.CHOLLA_LEVER, ChollaWoodModBlocks.MOD_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.CHORUS_LEVER, ChorusWoodModBlocks.MOD_PLANKS);
         registerLever(blockStateModelGenerator, ModBlocks.CITRUS_LEVER, CitrusWoodModBlocks.MOD_PLANKS);

@@ -92,7 +92,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OAK_LEVER);
         addDrop(ModBlocks.SPRUCE_LEVER);
         addDrop(ModBlocks.BIRCH_LEVER);
-        addDrop(ModBlocks.JUNGLE_LEVER);
+//        addDrop(ModBlocks.JUNGLE_LEVER);
         addDrop(ModBlocks.ACACIA_LEVER);
         addDrop(ModBlocks.DARK_OAK_LEVER);
         addDrop(ModBlocks.PALE_OAK_LEVER);
@@ -104,6 +104,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.AZALEA_LEVER);
         addDrop(ModBlocks.BAOBAB_LEVER);
+        addDrop(ModBlocks.CACAO_LEVER);
         addDrop(ModBlocks.CHOLLA_LEVER);
         addDrop(ModBlocks.CHORUS_LEVER);
         addDrop(ModBlocks.CITRUS_LEVER);
