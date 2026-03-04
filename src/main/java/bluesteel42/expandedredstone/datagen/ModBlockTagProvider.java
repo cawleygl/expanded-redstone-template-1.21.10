@@ -1,21 +1,9 @@
 package bluesteel42.expandedredstone.datagen;
 
-import bluesteel42.combinedworldgen.wood.azalea.AzaleaWoodInitializer;
-import bluesteel42.combinedworldgen.wood.baobab.BaobabWoodInitializer;
-import bluesteel42.combinedworldgen.wood.cholla.ChollaWoodInitializer;
-import bluesteel42.combinedworldgen.wood.chorus.ChorusWoodInitializer;
-import bluesteel42.combinedworldgen.wood.citrus.CitrusWoodInitializer;
-import bluesteel42.combinedworldgen.wood.dogwood.DogwoodWoodInitializer;
-import bluesteel42.combinedworldgen.wood.kapok.KapokWoodInitializer;
-import bluesteel42.combinedworldgen.wood.maple.MapleWoodInitializer;
-import bluesteel42.combinedworldgen.wood.petrified.PetrifiedWoodInitializer;
-import bluesteel42.combinedworldgen.wood.pine.PineWoodInitializer;
-import bluesteel42.combinedworldgen.wood.willow.WillowWoodInitializer;
 import bluesteel42.expandedredstone.block.ModBlocks;
 import bluesteel42.expandedredstone.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;

@@ -173,6 +173,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerStonePressurePlateRecipe(ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE, Blocks.PURPLE_CONCRETE);
                 offerStonePressurePlateRecipe(ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE, Blocks.MAGENTA_CONCRETE);
                 offerStonePressurePlateRecipe(ModBlocks.PINK_CONCRETE_PRESSURE_PLATE, Blocks.PINK_CONCRETE);
+
+//                createShaped(RecipeCategory.TRANSPORTATION, Blocks.DETECTOR_RAIL, 6)
+//                        .input('R', Items.REDSTONE)
+//                        .input('#', ModTags.Items.STONE_PRESSURE_PLATES)
+//                        .input('X', Items.IRON_INGOT)
+//                        .pattern("X X")
+//                        .pattern("X#X")
+//                        .pattern("XRX")
+//                        .criterion("has_rail", this.conditionsFromItem(Blocks.RAIL))
+//                        .offerTo(this.exporter);
             }
         };
     }
